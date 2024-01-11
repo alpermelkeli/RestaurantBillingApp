@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SiparisMenu">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/helvakat"
+        android:layout_width="343dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="228dp"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:background="@drawable/inputbackground"
+        android:text="Helva Çeşitleri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/soguk"
+        android:layout_width="343dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="@drawable/inputbackground"
+        android:textAllCaps="false"
+        android:text="Soğuk Ürünler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helvakat" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sıcak"
+        android:layout_width="343dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/inputbackground"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:text="Sıcak Ürünler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soguk"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

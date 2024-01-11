@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title= "Sipariş al"
+        android:id="@+id/siparisal"
+        android:icon="@drawable/pencil"
+        />
+    <item android:title="Mevcut Siparişler"
+        android:id="@+id/mevcutsiparisler"
+        android:icon="@android:drawable/ic_input_get"
+        />
+
+</menu>

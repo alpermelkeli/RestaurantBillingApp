@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CiroFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/urunlerRecycler"
+            android:layout_width="411dp"
+            android:layout_height="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/baslangicTarihSecButton"
+                android:layout_width="343dp"
+                android:layout_height="60dp"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:textColor="#2C2929"
+                android:fontFamily="@font/inter_semibold"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/inputbackground"
+                android:text="Başlangıç Tarihini Seç"
+                android:layout_gravity="center"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bitisTarihSecButton"
+                android:layout_width="343dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#2C2929"
+                android:textSize="17sp"
+                android:textAllCaps="false"
+                android:layout_height="60dp"
+                android:background="@drawable/inputbackground"
+                android:text="Bitiş Tarihini Seç"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/toplamSiparisTutariTextView"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="@font/inter_semibold"
+
+                android:layout_height="wrap_content"
+                android:text="Toplam Sipariş Tutarı: " />
+
+            <TextView
+                android:id="@+id/krediKarti"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:fontFamily="@font/inter_semibold"
+
+                android:layout_height="wrap_content"
+                android:text="Kredi kartı:"
+                />
+
+            <TextView
+                android:id="@+id/pesin"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:fontFamily="@font/inter_semibold"
+
+                android:layout_height="wrap_content"
+                android:text="Peşin:" />
+
+            <TextView
+                android:id="@+id/siparisSayisiTextView"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="@font/inter_semibold"
+                android:layout_height="wrap_content"
+                android:text="Sipariş Sayısı: " />
+
+            <TextView
+                android:id="@+id/toplamUrunSayisiTextView"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="@font/inter_semibold"
+                android:layout_height="wrap_content"
+                android:text="Toplam Ürün Sayısı: " />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

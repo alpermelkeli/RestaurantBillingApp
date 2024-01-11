@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".OdemeOnay">
+
+    <!-- Ürün Bilgileri -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="731dp">
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="109dp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.328">
+
+            <TextView
+                android:id="@+id/urunAdiTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:text="Ürün Adı"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderIDTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:text="Order ID"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/masaIDTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:text="Masa ID"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adetTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:text="Adet"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="228dp"
+            android:layout_height="36dp"
+            android:text="Ödeme Seçenekleri"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.147"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.657" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.754">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/krediKartiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kredi Kartı"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pesinButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peşin" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Ödeme Miktarı -->
+
+    <!-- Ödeme Yöntemleri -->
+
+    <!-- Ödeme Onaylama Butonu -->
+
+
+</LinearLayout>

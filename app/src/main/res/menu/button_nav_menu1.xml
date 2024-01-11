@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title= "Ürünler"
+        android:id="@+id/urunler"
+        android:icon="@drawable/listicon"
+        />
+    <item android:title="Ciro"
+        android:id="@+id/ciro"
+        android:icon="@drawable/tlicon"
+
+        />
+
+</menu>

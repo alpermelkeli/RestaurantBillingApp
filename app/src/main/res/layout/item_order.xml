@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_order.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="129dp"
+        android:orientation="vertical"
+        android:background="@drawable/siparis_background"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tableIdTextView"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:paddingStart="13dp"
+            android:paddingTop="5dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/paymentStatusTextView"
+            android:paddingStart="13dp"
+            android:layout_width="match_parent"
+            android:textColor="#C70101"
+            android:layout_height="25dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/siparisDetaylariTextView"
+            android:paddingStart="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/orderDateTextView"
+            android:paddingStart="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

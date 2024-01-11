@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BillApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:dropDownWidth">100dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:dropDownHeight">70dp</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@color/cardview_light_background</item>
+    </style>
+</resources>

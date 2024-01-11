@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".StokDuzenle">
+
+
+        <TextView
+            android:id="@+id/textViewHelva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Helva Ürünler"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewHelva"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="8dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textViewSoguk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Soğuk Ürünler"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSoguk"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="8dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/textViewSicak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sıcak Ürünler"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSicak"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginTop="8dp" />
+
+</LinearLayout>

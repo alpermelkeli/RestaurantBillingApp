@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Helvacı Ali"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BillApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MasaBirlestir"
+            android:exported="false" />
+        <activity
+            android:name=".MasaAyir"
+            android:exported="false" />
+        <activity
+            android:name=".UrunEkle"
+            android:exported="false" />
+        <activity
+            android:name=".YoneticiGiris"
+            android:exported="false" />
+        <activity
+            android:name=".Yonetici"
+            android:exported="false" />
+        <activity
+            android:name=".StokDuzenleOnay"
+            android:exported="false" />
+        <activity
+            android:name=".StokDuzenle"
+            android:exported="false" />
+        <activity
+            android:name=".GarsonSettings"
+            android:exported="false" />
+        <activity
+            android:name=".MasaDuzenle"
+            android:exported="false" />
+        <activity
+            android:name=".OdemeOnay"
+            android:exported="false" />
+        <activity
+            android:name=".MasaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Kasa"
+            android:exported="false" />
+        <activity
+            android:name=".SiparisOnay"
+            android:exported="false" />
+        <activity
+            android:name=".SicakSiparis"
+            android:exported="false" />
+        <activity
+            android:name=".SogukSiparis"
+            android:exported="false" />
+        <activity
+            android:name=".HelvaSiparis"
+            android:exported="false" />
+        <activity
+            android:name=".SiparisMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Garson"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
